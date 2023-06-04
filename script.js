@@ -16,7 +16,7 @@ do {
     let edad = prompt("Hola " + nombre + "! Ingresá tu edad!")
 
     // validar la edad y si falso, le pido que ingrese bien
-    while (isNaN(edad) || edad <= 0) {
+    while (isNaN(edad) || edad <= 0 || edad >= 115) {
         edad = Number(prompt("Atento " + nombre + "! Ingresá bien tu edad!"))
     }
 
