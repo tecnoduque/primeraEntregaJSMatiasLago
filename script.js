@@ -64,11 +64,11 @@ do {
     // mostrar la información en pantalla 
     alert("Gracias " + nombre + "!\n Como sos " +estado + " y visitas El Calafate en " +temporada +", \npodés hacer las siguientes excursiones:" +opciones);
     //preguntar si repetir 
-      repetirTodo = prompt("¿Deseas repetir el proceso? (SI o NO)").toUpperCase();
+      repetirTodo = prompt("¿Deseas repetir el proceso? (SI o cualquier otra cosa para NO)").toUpperCase();
 
 }
 while (repetirTodo=="SI")
 
-if (repetirTodo === "NO") {
+if (repetirTodo != "SI") {
     alert("Gracias por usar nuestros servicios")
 }
